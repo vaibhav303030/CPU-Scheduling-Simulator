@@ -20,6 +20,8 @@ export function MetricsTable({ metrics }) {
           </tr>
         </thead>
         <tbody>
+        <h1>hiii</h1>
+        
           {metrics.map((m) => (
             <tr key={m.pid}>
               <td className="mono">{m.pid}</td>
